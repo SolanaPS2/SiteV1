@@ -338,7 +338,7 @@ section.about .container {
   }
 }
 section.about .about__picture {
-  max-width: 484px;
+  /* max-width: 300px; */
   width: 100%;
 }
 section.about .about__content {
