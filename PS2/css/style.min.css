@@ -403,7 +403,7 @@ section.comment .container .comment__content img.picture {
   right: -310px;
   bottom: -250px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   section.comment .container .comment__content img.picture {
     position: absolute;
     right: 0;
@@ -505,7 +505,7 @@ section.base img.picture {
   position: absolute;
   left: 0;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   section.base img.picture {
     left: unset;
     width: 100%;
@@ -627,7 +627,7 @@ section.base .base__content .content__links .links__link.border:hover svg path {
 -------------------------------------------- section.base2 {
   margin-bottom: 511px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   section.base2 {
     margin-bottom: 140px;
   }
@@ -638,7 +638,7 @@ section.base2 .container {
   align-items: flex-start;
   justify-content: center;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   section.base2 .container {
     justify-content: center;
   }
@@ -649,7 +649,7 @@ section.base2 img.picture {
   position: absolute;
   left: 0;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   section.base2 img.picture {
     left: unset;
     width: 100%;
@@ -862,7 +862,7 @@ section.features .features__title {
 section.features .features__title svg {
   width: 122px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   section.features .features__title {
     font-size: 46px;
   }
@@ -872,7 +872,7 @@ section.features .features__grid {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 32px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   section.features .features__grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1260,7 +1260,7 @@ footer .footer__links .links__link img {
 }
 footer img.picture {
   width: 590px;
-  position: center;
+  position: absolute;
   bottom: 0;
   right: -66px;
   pointer-events: none;
