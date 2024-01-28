@@ -1,11 +1,11 @@
-wow = new WOW({
-    boxClass: 'wow',
-    animateClass: 'animated',
-    offset: 0,
-    mobile: true,
-    live: true
-})
-wow.init();
+// wow = new WOW({
+//     boxClass: 'wow',
+//     animateClass: 'animated',
+//     offset: 0,
+//     mobile: true,
+//     live: true
+// })
+// wow.init();
 
 
 let text = document.getElementById('copytext').innerHTML;
@@ -58,6 +58,8 @@ $( window ).on( "resize", function() {
       e.preventDefault();
       return false;
     });
+    // let x = document.getElementById("startupSound");
+    // x.paused = false;
   });
 
   if ($('section.faq').length > 0) {
