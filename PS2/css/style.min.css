@@ -1238,10 +1238,10 @@ footer .footer__content img {
   }
 }
 footer .footer__links {
-  margin-bottom: 82px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   grid-gap: 16px;
 }
 @media screen and (max-width: 768px) {
@@ -1260,7 +1260,7 @@ footer .footer__links .links__link img {
 }
 footer img.picture {
   width: 590px;
-  position: absolute;
+  position: center;
   bottom: 0;
   right: -66px;
   pointer-events: none;
