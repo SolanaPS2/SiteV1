@@ -1,207 +1,332 @@
-
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/ps2_icon.png">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/ps2_icon.png" />
     <title>PlaySolana 2</title>
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-</head>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+  </head>
 
-<body>
+  <body>
     <!-- <div hidden>
     <audio controls autoplay id="startupSound">
         <source src="audio/startup.mp3" type="audio/mpeg">
       </audio>
     </div> -->
     <header>
-        <div class="container">
-            <a href="/" class="header__logo">
-                <img src="" alt="">
-            </a>
-            <div class="mobile-btn">
-                <svg class="default" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                    <path d="M8.3335 8.33333H20.0002H31.6668" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round"></path>
-                    <path d="M8.3335 20H31.6668" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round"></path>
-                    <path d="M8.3335 31.6667H20.0002H31.6668" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round"></path>
-                </svg>
-                <svg class="close" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                    <path d="M8.3335 8.33333L20.0002 20L31.6668 8.33333" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round"></path>
-                    <path d="M8.3335 31.6667L20.0002 20L31.6668 31.6667" stroke="#F8F7FF" stroke-width="4" stroke-linecap="round"></path>
-                </svg>
-            </div>
-            <div class="header__links">
-                <a href="/" class="links__link">Home</a>
-                <a href="#about" class="links__link">About</a>
-                <a href="#tokenomics" class="links__link">Tokenomics</a>
-                <a href="https://dexscreener.com/solana/DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc" class="links__link">Chart</a>
-
-
-                <a href="https://t.me/PS2SOL" target="_blank" class="links__btn">Join the community</a>
-                <div class="social__links">
-                    <a href="https://twitter.com/PlaySolana2" target="_blank">
-                        <img src="images/social_x.png" alt="">
-                    </a>
-                    <a href="https://t.me/PS2SOL" target="_blank">
-                        <img src="images/social_tg.png" alt="">
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <a href="/" class="header__logo">
+          <img src="" alt="" />
+        </a>
+        <div class="mobile-btn">
+          <svg
+            class="default"
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <path
+              d="M8.3335 8.33333H20.0002H31.6668"
+              stroke="#F8F7FF"
+              stroke-width="4"
+              stroke-linecap="round"
+            ></path>
+            <path
+              d="M8.3335 20H31.6668"
+              stroke="#F8F7FF"
+              stroke-width="4"
+              stroke-linecap="round"
+            ></path>
+            <path
+              d="M8.3335 31.6667H20.0002H31.6668"
+              stroke="#F8F7FF"
+              stroke-width="4"
+              stroke-linecap="round"
+            ></path>
+          </svg>
+          <svg
+            class="close"
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <path
+              d="M8.3335 8.33333L20.0002 20L31.6668 8.33333"
+              stroke="#F8F7FF"
+              stroke-width="4"
+              stroke-linecap="round"
+            ></path>
+            <path
+              d="M8.3335 31.6667L20.0002 20L31.6668 31.6667"
+              stroke="#F8F7FF"
+              stroke-width="4"
+              stroke-linecap="round"
+            ></path>
+          </svg>
         </div>
+        <div class="header__links">
+          <a href="/" class="links__link">Home</a>
+          <a href="#about" class="links__link">About</a>
+          <a href="#tokenomics" class="links__link">Tokenomics</a>
+          <a
+            href="https://dexscreener.com/solana/DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc"
+            class="links__link"
+            >Chart</a
+          >
+
+          <a href="https://t.me/PS2SOL" target="_blank" class="links__btn"
+            >Join the community</a
+          >
+          <div class="social__links">
+            <a href="https://twitter.com/PlaySolana2" target="_blank">
+              <img src="images/social_x.png" alt="" />
+            </a>
+            <a href="https://t.me/PS2SOL" target="_blank">
+              <img src="images/social_tg.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
     <section class="intro">
-        <div class="container">
-            <img src="images/wallpaper.png" alt="" class="picture ">
-            <h2 class="wow animate__bounceIn">Welcome to 
-                <img src="images/ps2_icon.png"/> </h2>
-                
-                <h3 class="wow animate__bounceIn">Live in your world. Play in ours.
-                </h3>
-                <div class="intro__links wow animate__bounceIn">
-                    <a href="https://raydium.io/swap/?outputCurrency=DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc" target="_blank" class="links__link white">
-                        Buy on Raydium
+      <div class="container">
+        <img src="images/wallpaper.png" alt="" class="picture" />
+        <h2 class="wow animate__bounceIn">
+          Welcome to <img src="images/ps2_icon.png" />
+        </h2>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-                            <path d="M6.25 5.44702C5.56 5.44702 5 6.00702 5 6.69702V18.197C5 18.887 5.56 19.447 6.25 19.447H17.75C18.44 19.447 19 18.887 19 18.197V14.447C19 14.1818 19.1054 13.9275 19.2929 13.7399C19.4804 13.5524 19.7348 13.447 20 13.447C20.2652 13.447 20.5196 13.5524 20.7071 13.7399C20.8946 13.9275 21 14.1818 21 14.447V18.197C21 19.059 20.6576 19.8856 20.0481 20.4951C19.4386 21.1046 18.612 21.447 17.75 21.447H6.25C5.38805 21.447 4.5614 21.1046 3.9519 20.4951C3.34241 19.8856 3 19.059 3 18.197V6.69702C3 5.83507 3.34241 5.00842 3.9519 4.39892C4.5614 3.78943 5.38805 3.44702 6.25 3.44702H10C10.2652 3.44702 10.5196 3.55238 10.7071 3.73991C10.8946 3.92745 11 4.18181 11 4.44702C11 4.71224 10.8946 4.96659 10.7071 5.15413C10.5196 5.34166 10.2652 5.44702 10 5.44702H6.25ZM14 5.44702C13.7348 5.44702 13.4804 5.34166 13.2929 5.15413C13.1054 4.96659 13 4.71224 13 4.44702C13 4.18181 13.1054 3.92745 13.2929 3.73991C13.4804 3.55238 13.7348 3.44702 14 3.44702H20C20.2652 3.44702 20.5196 3.55238 20.7071 3.73991C20.8946 3.92745 21 4.18181 21 4.44702V10.447C21 10.7122 20.8946 10.9666 20.7071 11.1541C20.5196 11.3417 20.2652 11.447 20 11.447C19.7348 11.447 19.4804 11.3417 19.2929 11.1541C19.1054 10.9666 19 10.7122 19 10.447V6.86102L14.707 11.154C14.5184 11.3362 14.2658 11.437 14.0036 11.4347C13.7414 11.4324 13.4906 11.3272 13.3052 11.1418C13.1198 10.9564 13.0146 10.7056 13.0123 10.4434C13.01 10.1812 13.1108 9.92862 13.293 9.74002L17.586 5.44702H14Z" fill="#050505"></path>
-                        </svg>
-                    </a>
-                    <a href="https://t.me/PS2SOL" class="links__link border" target="_blank">Learn More</a>                    
-                    <a href="docs/PS2_Manual.pdf" class="links__link border" target="_blank">PlaySolana 2 User's Manual</a>
-                </div>
+        <h3 class="wow animate__bounceIn">Live in your world. Play in ours.</h3>
+        <div class="intro__links wow animate__bounceIn">
+          <a
+            href="https://raydium.io/swap/?outputCurrency=DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc"
+            target="_blank"
+            class="links__link white"
+          >
+            Buy on Raydium
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+            >
+              <path
+                d="M6.25 5.44702C5.56 5.44702 5 6.00702 5 6.69702V18.197C5 18.887 5.56 19.447 6.25 19.447H17.75C18.44 19.447 19 18.887 19 18.197V14.447C19 14.1818 19.1054 13.9275 19.2929 13.7399C19.4804 13.5524 19.7348 13.447 20 13.447C20.2652 13.447 20.5196 13.5524 20.7071 13.7399C20.8946 13.9275 21 14.1818 21 14.447V18.197C21 19.059 20.6576 19.8856 20.0481 20.4951C19.4386 21.1046 18.612 21.447 17.75 21.447H6.25C5.38805 21.447 4.5614 21.1046 3.9519 20.4951C3.34241 19.8856 3 19.059 3 18.197V6.69702C3 5.83507 3.34241 5.00842 3.9519 4.39892C4.5614 3.78943 5.38805 3.44702 6.25 3.44702H10C10.2652 3.44702 10.5196 3.55238 10.7071 3.73991C10.8946 3.92745 11 4.18181 11 4.44702C11 4.71224 10.8946 4.96659 10.7071 5.15413C10.5196 5.34166 10.2652 5.44702 10 5.44702H6.25ZM14 5.44702C13.7348 5.44702 13.4804 5.34166 13.2929 5.15413C13.1054 4.96659 13 4.71224 13 4.44702C13 4.18181 13.1054 3.92745 13.2929 3.73991C13.4804 3.55238 13.7348 3.44702 14 3.44702H20C20.2652 3.44702 20.5196 3.55238 20.7071 3.73991C20.8946 3.92745 21 4.18181 21 4.44702V10.447C21 10.7122 20.8946 10.9666 20.7071 11.1541C20.5196 11.3417 20.2652 11.447 20 11.447C19.7348 11.447 19.4804 11.3417 19.2929 11.1541C19.1054 10.9666 19 10.7122 19 10.447V6.86102L14.707 11.154C14.5184 11.3362 14.2658 11.437 14.0036 11.4347C13.7414 11.4324 13.4906 11.3272 13.3052 11.1418C13.1198 10.9564 13.0146 10.7056 13.0123 10.4434C13.01 10.1812 13.1108 9.92862 13.293 9.74002L17.586 5.44702H14Z"
+                fill="#050505"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://t.me/PS2SOL"
+            class="links__link border"
+            target="_blank"
+            >Learn More</a
+          >
+          <a
+            href="docs/PS2_Manual.pdf"
+            class="links__link border"
+            target="_blank"
+            >PlaySolana 2 User's Manual</a
+          >
         </div>
+      </div>
     </section>
-   
+
     <section class="about" id="about">
-        <div class="container">
-            <img src="images/memory_card.png" alt="" class="picture">
-            <div class="about__content">
-                <div class="content__title wow animate__bounceIn">About $PS2</div>
-                <div class="content__text wow animate__bounceIn">
-                    <p>
-                    24 years ago, the best selling console of all time hit the markets. <a href="https://www.statista.com/statistics/1101872/unit-sales-video-game-consoles/" target="_blank">Selling 158.7 Million units worldwide</a>
-                    <br> <br> 
-                    This console captured the hearts and minds of people of all ages from all across the globe. 
-                    <br> <br>
-                    The PS2 didn't just play games; it defined a generation. You probably owned a PS2 just like everyone else who is currently trading JPGs and memecoins.
-					<br><br>
-                    Get yourself some $PS2 and make your younger self proud!
-					</p>
-			<br><br>
-			Contract Address: DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc
-                </div>
-            </div>
+      <div class="container">
+        <img src="images/memory_card.png" alt="" class="about__picture" />
+        <div class="about__content">
+          <div class="content__title wow animate__bounceIn">About $PS2</div>
+          <div class="content__text wow animate__bounceIn">
+            <p>
+              24 years ago, the best selling console of all time hit the
+              markets.
+              <a
+                href="https://www.statista.com/statistics/1101872/unit-sales-video-game-consoles/"
+                target="_blank"
+                >Selling 158.7 Million units worldwide</a
+              >
+              <br />
+              <br />
+              This console captured the hearts and minds of people of all ages
+              from all across the globe.
+              <br />
+              <br />
+              The PS2 didn't just play games; it defined a generation. You
+              probably owned a PS2 just like everyone else who is currently
+              trading JPGs and memecoins.
+              <br /><br />
+              Get yourself some $PS2 and make your younger self proud!
+            </p>
+            <br /><br />
+            Contract Address: DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc
+          </div>
         </div>
-    </section>
-   
-    <br/><br/><br/>
-    <section class="intro">
-        <div class="container">
-            <img src="images/roadmap_blank.png" alt="" class="picture ">
-            
-        </div>
+      </div>
     </section>
 
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
+    <br /><br /><br />
+    <section class="intro">
+      <div class="container">
+        <img src="images/roadmap_blank.png" alt="" class="picture" />
+      </div>
+    </section>
+
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
 
     <section class="base">
-        <div class="container">
-            <img src="images/base_picture.svg" alt="" class="picture wow animate__bounceIn">
-            <div class="base__content wow animate__bounceIn" data-aos-delay="3000">
-                <div class="content__title">How to buy $PS2</div>
-                <div class="content__text">You can purchase $PS2 in various different ways. We reccomend downloading Phantom Wallet, purchasing SOL, sending it to your phantom address and swapping using Phantom's in-app wallet, or on a decentralised exchange like Raydium.</div>
-                <div class="content__links">
-                    <a href="https://phantom.app/" class="links__link border" target="_blank">
-                        Phantom
-                       
-                    </a>
-                    <a href="https://raydium.io/swap/?outputCurrency=DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc" target="_blank" class="links__link border">
-                        Raydium                       
-                    </a>
-                    <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=p4432023.m570.l1313&_nkw=playstation+2+console&_sacat=0" class="links__link border" target="_blank">Ebay</a>
-                    <a href="https://www.gamestop.com/consoles-hardware/retro-consoles/retro-playstation-hardware/playstation-2/consoles/products/sony-playstation-2-console/909062.html?utm_source=product_share&utm_medium=app" class="links__link border" target="_blank">GameStop</a>
-                    <a href="https://www.bestbuy.com/site/sony-playstation-2-console-ps2/6010791.p?skuId=6010791" class="links__link border" target="_blank">Best Buy</a>
-                </div>
-            </div>
+      <div class="container">
+        <img
+          src="images/base_picture.svg"
+          alt=""
+          class="picture wow animate__bounceIn"
+        />
+        <div class="base__content wow animate__bounceIn" data-aos-delay="3000">
+          <div class="content__title">How to buy $PS2</div>
+          <div class="content__text">
+            You can purchase $PS2 in various different ways. We reccomend
+            downloading Phantom Wallet, purchasing SOL, sending it to your
+            phantom address and swapping using Phantom's in-app wallet, or on a
+            decentralised exchange like Raydium.
+          </div>
+          <div class="content__links">
+            <a
+              href="https://phantom.app/"
+              class="links__link border"
+              target="_blank"
+              >Phantom</a
+            >
+            <a
+              href="https://raydium.io/swap/?outputCurrency=DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc"
+              target="_blank"
+              class="links__link border"
+              >Raydium</a
+            >
+            <a
+              href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=p4432023.m570.l1313&_nkw=playstation+2+console&_sacat=0"
+              class="links__link border"
+              target="_blank"
+              >Ebay</a
+            >
+            <a
+              href="https://www.gamestop.com/consoles-hardware/retro-consoles/retro-playstation-hardware/playstation-2/consoles/products/sony-playstation-2-console/909062.html?utm_source=product_share&utm_medium=app"
+              class="links__link border"
+              target="_blank"
+              >GameStop</a
+            >
+            <a
+              href="https://www.amazon.com/s?k=playstation+2"
+              class="links__link border"
+              target="_blank"
+              >Amazon</a
+            >
+          </div>
         </div>
+      </div>
     </section>
-   
-  
+
     <section class="calc" id="tokenomics">
-        <div class="container">
-            <div class="calc__title wow animate__bounceIn">
-                Tokenomics
-                <img src="images/calc_pict.svg" alt="">
-            </div>
-            <div class="calc__list wow animate__bounceIn">
-                <div class="calc__block">
-                    <div class="block__title">
-                        Symbol
-                    </div>
-                    <div class="block__value">$PS2</div>
-                </div>
-                <div class="calc__block">
-                    <div class="block__title">
-                        Tax
-                    </div>
-                    <div class="block__value">0/0</div>
-                </div>
-                <div class="calc__block">
-                    <div class="block__title">
-                        Liquidity
-                    </div>
-                    <div class="block__value"><a href="https://solscan.io/tx/5SHBwubmuoL4cMYjam8KLLupMqtFGPqc7URyGs1dqwotdASERRvHRzcMStPPXxDqVkUu9XYrfmC7VAv5bDqp2Lhm" target="_blank">Burned Forever</a></div>
-                </div>
-            </div>
-            <div class="calc__block wow animate__bounceIn">
-                <div class="block__title">Token Address</div>
-                <div class="block__value">
-                    <p id="copytext"> DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc</p>
-                    <svg onclick="copyContent()" xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
-                        <path d="M27 4.23828H11C10.6022 4.23828 10.2206 4.39632 9.93934 4.67762C9.65804 4.95893 9.5 5.34046 9.5 5.73828V10.2383H5C4.60218 10.2383 4.22064 10.3963 3.93934 10.6776C3.65804 10.9589 3.5 11.3405 3.5 11.7383V27.7383C3.5 28.1361 3.65804 28.5176 3.93934 28.7989C4.22064 29.0802 4.60218 29.2383 5 29.2383H21C21.3978 29.2383 21.7794 29.0802 22.0607 28.7989C22.342 28.5176 22.5 28.1361 22.5 27.7383V23.2383H27C27.3978 23.2383 27.7794 23.0802 28.0607 22.7989C28.342 22.5176 28.5 22.1361 28.5 21.7383V5.73828C28.5 5.34046 28.342 4.95893 28.0607 4.67762C27.7794 4.39632 27.3978 4.23828 27 4.23828ZM19.5 26.2383H6.5V13.2383H19.5V26.2383ZM25.5 20.2383H22.5V11.7383C22.5 11.3405 22.342 10.9589 22.0607 10.6776C21.7794 10.3963 21.3978 10.2383 21 10.2383H12.5V7.23828H25.5V20.2383Z" fill="#F8F7FF"></path>
-                    </svg>
-                </div>
-            </div>
+      <div class="container">
+        <div class="calc__title wow animate__bounceIn">
+          Tokenomics
+          <img src="images/calc_pict.svg" alt="" />
         </div>
+        <div class="calc__list wow animate__bounceIn">
+          <div class="calc__block">
+            <div class="block__title">Symbol</div>
+            <div class="block__value">$PS2</div>
+          </div>
+          <div class="calc__block">
+            <div class="block__title">Tax</div>
+            <div class="block__value">0/0</div>
+          </div>
+          <div class="calc__block">
+            <div class="block__title">Liquidity</div>
+            <div class="block__value">
+              <a
+                href="https://solscan.io/tx/5SHBwubmuoL4cMYjam8KLLupMqtFGPqc7URyGs1dqwotdASERRvHRzcMStPPXxDqVkUu9XYrfmC7VAv5bDqp2Lhm"
+                target="_blank"
+                >Burned Forever</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="calc__block wow animate__bounceIn">
+          <div class="block__title">Token Address</div>
+          <div class="block__value">
+            <p id="copytext">DXNh9rXfVHnCkHSrwpkgsaKbFeZmW9EjVWDAFKVVHGvc</p>
+            <svg
+              onclick="copyContent()"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="33"
+              viewBox="0 0 32 33"
+              fill="none"
+            >
+              <path
+                d="M27 4.23828H11C10.6022 4.23828 10.2206 4.39632 9.93934 4.67762C9.65804 4.95893 9.5 5.34046 9.5 5.73828V10.2383H5C4.60218 10.2383 4.22064 10.3963 3.93934 10.6776C3.65804 10.9589 3.5 11.3405 3.5 11.7383V27.7383C3.5 28.1361 3.65804 28.5176 3.93934 28.7989C4.22064 29.0802 4.60218 29.2383 5 29.2383H21C21.3978 29.2383 21.7794 29.0802 22.0607 28.7989C22.342 28.5176 22.5 28.1361 22.5 27.7383V23.2383H27C27.3978 23.2383 27.7794 23.0802 28.0607 22.7989C28.342 22.5176 28.5 22.1361 28.5 21.7383V5.73828C28.5 5.34046 28.342 4.95893 28.0607 4.67762C27.7794 4.39632 27.3978 4.23828 27 4.23828ZM19.5 26.2383H6.5V13.2383H19.5V26.2383ZM25.5 20.2383H22.5V11.7383C22.5 11.3405 22.342 10.9589 22.0607 10.6776C21.7794 10.3963 21.3978 10.2383 21 10.2383H12.5V7.23828H25.5V20.2383Z"
+                fill="#F8F7FF"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
     </section>
-  
+
     <footer>
-        <div class="container">
-            <div class="footer__content">
-                <img src="images/miro_text.png" alt="">
-                PlaySolana 2 is more than just a cryptocurrency, it is also a way to connect with other true PS2 believers and make
-                a difference in the world. Join the PlaySolana movement today and help us make the world a more fun and
-                inclusive place for everyone!<br>
-                
-            </div>
-            <div class="footer__links">
-                <a href="https://twitter.com/PlaySolana2" target="_blank" class="links__link">
-                    <img src="images/social_x.png" alt="">
-                </a>
-                <a href="https://t.me/PS2SOL" target="_blank" class="links__link">
-                    <img src="images/social_tg.png" alt="">
-                </a>
-            </div>
-            <div class="footer__other">
-                <div class="">DISCLAIMER: $PS2 is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is for entertainment purposes only.</div>
-            </div>
-            <img src="images/footer_dog.png" alt="" class="picture">
+      <div class="container">
+        <div class="footer__content">
+          <img src="images/miro_text.png" alt="" />
+          PlaySolana 2 is more than just a cryptocurrency, it is also a way to
+          connect with other true PS2 believers and make a difference in the
+          world. Join the PlaySolana movement today and help us make the world a
+          more fun and inclusive place for everyone!<br />
         </div>
+        <div class="footer__links">
+          <a
+            href="https://twitter.com/PlaySolana2"
+            target="_blank"
+            class="links__link"
+          >
+            <img src="images/social_x.png" alt="" />
+          </a>
+          <a href="https://t.me/PS2SOL" target="_blank" class="links__link">
+            <img src="images/social_tg.png" alt="" />
+          </a>
+        </div>
+        <div class="footer__other">
+          <div class="">
+            DISCLAIMER: $PS2 is a meme coin with no intrinsic value or
+            expectation of financial return. There is no formal team or roadmap.
+            The coin is for entertainment purposes only.
+          </div>
+        </div>
+        <img src="images/footer_dog.png" alt="" class="picture" />
+      </div>
     </footer>
     <script src="js/swiper-element-bundle.min.js"></script>
     <script src="js/main-v2.js"></script>
-    <script src="js/wow.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="js/wow.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="js/jquery-3.7.0.min.js"></script>
     <script src="js/main.js"></script>
- 
-    
-
-
-</body></html>
+  </body>
+</html>
