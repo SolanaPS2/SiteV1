@@ -359,7 +359,7 @@ section.about .about__content .content__title {
 }
 section.about .about__content .content__text {
   color: var(--f-8-f-7-ff, #f8f6ff);
-  font-size: 20px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
